@@ -1,0 +1,38 @@
+.btn {
+	display: flex;
+	gap: 10px;
+}
+
+.btn_task {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	margin-left: 15px;
+	font-weight: 700;
+}
+
+.btn_task:hover {
+	background-color: rgb(255, 1, 1);
+	color: white;
+}
+
+.error {
+	border: red 1px solid;
+}
+
+.error__massage {
+	color: red;
+}
+
+.active__filter {
+	background-color: aquamarine;
+}
+
+.is_done {
+	opacity: 0.5;
+}
+
+.btn_del {
+	 margin-left: 10px;
+}
